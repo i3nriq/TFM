@@ -1,0 +1,12 @@
+CONFIGURACION,MODELO,RESULTADO_AC,RESULTADO_SENS,RESULTADO_F1,RESULTADO_ACC,CONFIGURACION_MODELO
+0,SVM,0.8,0.6,0.8333333333333333,0.78,"OneClassSVM(gamma=0.1, nu=0.05)"
+0,IF,0.9,0.8,0.9090909090909091,0.8400000000000001,IsolationForest(n_estimators=10)
+0,RF,0.5,0.0,0.6666666666666666,0.5,"RandomForestClassifier(max_depth=500, oob_score=True, random_state=1990)"
+1,SVM,0.9,1.0,0.888888888888889,0.8,"OneClassSVM(gamma=0.9, nu=0.1)"
+1,IF,0.9,0.8,0.9090909090909091,0.8400000000000001,IsolationForest()
+1,RF,0.5,0.0,0.6666666666666666,0.5,"RandomForestClassifier(max_depth=100, n_estimators=1000, oob_score=True,
+                       random_state=1990)"
+2,SVM,0.7,1.0,0.5714285714285715,0.6799999999999999,OneClassSVM(gamma=0.5)
+2,IF,0.9,0.8,0.9090909090909091,0.8400000000000001,IsolationForest(n_estimators=500)
+2,RF,0.5,0.0,0.6666666666666666,0.5,"RandomForestClassifier(max_depth=50, n_estimators=5000, oob_score=True,
+                       random_state=1990)"
