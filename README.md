@@ -128,14 +128,11 @@ El proyecto consta de dos secciones, detalladas en ficheros con extensión **.ip
 1.   Datos del modelo, *Seccion A - Datos.ipynb*
 2.   Experimentación y desarrollo del modelo, *Seccion B - Modelo.ipynb*
 
+
+
 ### **Seccion A - Datos.ipynb**
 
 Dicha sección incluye las siguientes secciones de la investigación. teniendo como entrada el fichero **DF_Anonimizado.csv** y obteniendo como resultado el fichero **DF_Resumido_etiquetado.csv**. para la fase de experimentación y desarrollo del modelo hibrido.
-
-4.4.	Preproceso de datos
-> 4.4.1.	Selección de datos necesarios
-
-> 4.4.2.	Proceso de anonimización de datos
 
 > 4.4.3.	Selección de la base de datos de partida
 
